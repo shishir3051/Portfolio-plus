@@ -66,12 +66,12 @@ header {
     display: table;
     clear: both;
 }
-.main-container {
+.heading-container {
     display: flex;
     gap: 50px;
 }
 .main-heading {
-    padding: 30px 20px;
+    padding: 30px;
 }
 .main-heading::after {
     content: "";
@@ -115,14 +115,13 @@ header {
 .col-6 {
     flex-basis: 50%;
     display: flex;
-    flex-flow: row wrap;
 }
 .grave-contain {
     flex-basis: 50%;
     align-self: center;
 }
 .me-info {
-    padding: 60px;
+    padding: 51px 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -131,7 +130,7 @@ header {
 .birthday-location {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 .email {
     display: flex;
