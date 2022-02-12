@@ -89,10 +89,12 @@ header {
 .main-heading > h2 {
 	margin-bottom: 20px;
 	font-size: 25px;
+	
 	color: var(--heading-color);
 }
 .main-heading p {
 	margin-bottom: 40px;
+	height:28px;
 }
 .social-media {
 	display: flex;
