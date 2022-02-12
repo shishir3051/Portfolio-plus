@@ -96,6 +96,7 @@ header {
 .social-media {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 14px;
 }
 .btn {
@@ -303,3 +304,73 @@ footer a:hover span::after {
 .continue-aside + #about-me {
     margin-left: auto !important;
 }
+
+/* responsive design starts hear */
+
+@media screen and (max-width: 1199px) {
+    /* .floating-header {
+        
+    } */
+    header {
+        min-height: 615px;
+    }
+    .profile-img {
+        background-color: var(--light-color);
+        width: auto;
+        padding: 5px 5px 2px;
+        border-radius: 15px;
+        margin: -65px 0px 1px 0px;
+        height: fit-content;
+        align-self: center;
+    }
+    .col-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main-heading p {
+        margin-bottom: 31px;
+        text-align: center;
+    }
+    .main-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grave-contain {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .me-info {
+        padding: 41px 46px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
+    }
+}
+@media (max-width: 991px) {
+    header {
+        min-height: 850px;
+    }
+    .floating-header {
+        flex-direction: column;
+    }
+    .me-info {
+        flex-direction: row;
+    }
+    .main-heading::after {
+        content: "";
+        background-color: rgb(230, 230, 230);
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        height: 1px;
+        top: 60%;
+    }
+}
+/* responsive design ends hear */
