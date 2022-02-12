@@ -183,8 +183,8 @@ hr {
 	}
 }
 @media (max-width: 991px){
-    /* .halt {
+    .halt {
         position: relative;
-    } */
+    }
 }
 /* responsive design ends here */
