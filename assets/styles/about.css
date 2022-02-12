@@ -162,3 +162,44 @@ hr {
     opacity: 0.5;
     height: 1px;
 }
+
+/* responsive design starts here */
+
+@media screen and (max-width: 1199px) {
+    .whole-container {
+        display: flex;
+        width: calc(100% - 32px);
+    }
+    aside {
+        width: 150px;
+    }
+    .continue-aside {
+        margin-top: 0;
+        position: relative;
+    }
+    .sidebar {
+        width: 140px;
+    }
+    .sidebar button {
+        height: 76px;
+    }
+    .main-image-div {
+        width: 250px;
+        height: 332px;
+    }
+    .main-image-div img {
+        width: 250px;
+        height: 332px;
+    }
+    .main-body {
+        width: 578px;
+    }
+    .halt {
+        position: static;
+    }
+    #about-me {
+        margin-left: 0 !important;
+        width: 82%;
+    }
+}
+/* responsive design ends here */
