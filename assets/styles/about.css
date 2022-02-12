@@ -30,7 +30,7 @@ div#about-me {
     overflow: hidden;
 }
 .main-image-div:hover .main-img {
-    transform: scale(1.08);
+    transform: scale(1.1);
 }
 .main-body {
     padding-top: 30px;

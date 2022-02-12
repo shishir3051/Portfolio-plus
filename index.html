@@ -12,15 +12,20 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="./assets/styles/global.css" />
-        <link rel="stylesheet" href="./assets/styles/about.css">
+        <link rel="stylesheet" href="./assets/styles/about.css" />
     </head>
     <body>
+        <div class="arrow goTop">
+            <a href="#"
+                ><span><i class="bi bi-arrow-up"></i></span
+            ></a>
+        </div>
         <header>
             <div class="header-img"></div>
             <div class="floating-header">
                 <div class="col-6">
                     <div class="profile-img">
-                        <img src="./assets/images/header1.png" alt="profile" />
+                        <img src="./assets/images/OIF.jpg" alt="profile" />
                     </div>
                     <div class="heading-container">
                         <div class="main-heading">
@@ -87,7 +92,7 @@
             </div>
         </header>
         <div class="whole-container">
-            <aside>
+            <aside id="stickyBar">
                 <div class="sidebar">
                     <div>
                         <a href="#About-me"
@@ -116,12 +121,16 @@
                     </div>
                 </div>
             </aside>
-            <div id="about-me">
+            <div id="about-me" class="stickyPin-top">
                 <div class="main-container">
                     <div class="main-image-div">
-                        <img class="main-img" src="./assets/images/profile2.png" alt="profile" />
+                        <img
+                            class="main-img"
+                            src="./assets/images/profile2.png"
+                            alt="profile"
+                        />
                     </div>
-                    <div class="main-body">
+                    <div class="main-body" id="pin">
                         <span>VISIT MY PORTFOLIO & HIRE ME</span>
                         <h2>About Me</h2>
                         <p>
@@ -142,12 +151,20 @@
                         </p>
                         <div class="highlight">
                             <ul>
-                                <li><i class="bi bi-check2"></i></i> Web Design Full stack</li>
-                                <li><i class="bi bi-check2"></i></i> 24/7 Support</li>
-                                <li><i class="bi bi-check2"></i></i> Unlimited Revisions</li>
+                                <li>
+                                    <i class="bi bi-check2"></i> Web Design Full
+                                    stack
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2"></i> 24/7 Support
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2"></i> Unlimited
+                                    Revisions
+                                </li>
                             </ul>
 
-                           <a href="#"> <button>Download My Cv</button></a>
+                            <a href="#"> <button>Download My Cv</button></a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +180,7 @@
                         <p>
                             A Full Stack Developer is someone who works with the
                             Back End — or server side — of the application as
-                            well as the Front End, or client side. Full Stack
+                            well as the Front End, or client <span id="end-pin">side</span>. Full Stack
                             Developers have to have some skills in a wide
                             variety of coding niches, from databases to graphic
                             design and UI/UX management in order to do their job
@@ -172,17 +189,16 @@
                     </div>
                     <div class="service-card-2">
                         <i class="bi bi-rss"></i>
-                        <h6 class="title color-lightn">
-                            Web Design
-                        </h6>
+                        <h6 class="title color-lightn">Web Design</h6>
                         <p>
-                            A Full Stack Developer is someone who works with the
-                            Back End — or server side — of the application as
-                            well as the Front End, or client side. Full Stack
-                            Developers have to have some skills in a wide
-                            variety of coding niches, from databases to graphic
-                            design and UI/UX management in order to do their job
-                            well.
+                            Web design refers to the design of websites that are
+                            displayed on the internet. It usually refers to the
+                            user experience aspects of website development
+                            rather than software development. Web design used to
+                            be focused on designing websites for desktop
+                            browsers; however, since the mid-2010s, design for
+                            mobile and tablet browsers has become
+                            ever-increasingly important.
                         </p>
                     </div>
                 </div>
@@ -192,25 +208,25 @@
                     </div>
                     <div class="client-card">
                         <div class="div1-card">
-                        <img src="./assets/images/brand-04.png" alt="">
-                            <hr>
+                            <img src="./assets/images/brand-04.png" alt="" />
+                            <hr />
                             <p>Rahman Shishir</p>
-                    </div>
-                    <div class="div1-card">
-                        <img src="./assets/images/brand-05.png" alt="">
-                        <hr>
-                        <p>Rahman Shishir</p>
-                    </div>
-                    <div class="div1-card">
-                        <img src="./assets/images/brand-04.png" alt="">
-                        <hr>
-                        <p>Rahman Shishir</p>
-                    </div>
-                    <div class="div1-card">
-                        <img src="./assets/images/brand-06.png" alt="">
-                        <hr>
-                        <p>Rahman Shishir</p>
-                    </div>
+                        </div>
+                        <div class="div1-card">
+                            <img src="./assets/images/brand-05.png" alt="" />
+                            <hr />
+                            <p>Rahman Shishir</p>
+                        </div>
+                        <div class="div1-card">
+                            <img src="./assets/images/brand-04.png" alt="" />
+                            <hr />
+                            <p>Rahman Shishir</p>
+                        </div>
+                        <div class="div1-card">
+                            <img src="./assets/images/brand-06.png" alt="" />
+                            <hr />
+                            <p>Rahman Shishir</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -227,5 +243,7 @@
                 >
             </p>
         </footer>
+
+        <script src="./assets/scripts/main.js"></script>
     </body>
 </html>

@@ -14,8 +14,11 @@
     --heading-color: #3c3e41;
     --button-color: #ff014f;
 }
+html {
+    scroll-behavior: smooth;
+}
 /* html,
-body {
+{
     overflow-x: hidden;
 } */
 body {
@@ -28,7 +31,7 @@ header {
     min-height: 500px;
 }
 .header-img {
-    background-image: url("../images/unnamed.png");
+    background-image: url("../images/wallpapersden.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -181,6 +184,7 @@ aside {
     width: 230px;
     position: sticky;
     top: 0px;
+    z-index: 9;
 }
 .sidebar {
     background-color: var(--header-bg);
@@ -252,4 +256,50 @@ footer a span::after {
 footer a:hover span::after {
     color: var(--button-color);
     width: 104px;
+}
+
+.arrow i {
+    font-size: 30px !important;
+}
+.arrow span {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+        rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: 0.5s;
+    color: var(--icon-bg);
+}
+.arrow span:hover {
+    background-color: #e50b2e;
+    color: var(--light-color);
+}
+.goTop-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.goTop {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.halt {
+    position: fixed;
+    top: 0;
+    margin-top: 28px;
+    transition: 0.2s;
+}
+.continue-aside {
+    margin-top: auto;
+    position: relative;
+}
+.continue-aside + #about-me {
+    margin-left: auto !important;
 }
