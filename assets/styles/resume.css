@@ -130,7 +130,7 @@ h6{
     align-items: center;
     justify-content: space-between;
 
-    transition: 0.5s;
+    transition: 0.8s;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -173,4 +173,5 @@ h6{
 .personal-portfolio-card:hover .personal {
  border-color: #d0d6e0;
 }
+
 
