@@ -130,7 +130,6 @@ h6 {
 .personal-portfolio-card {
     width: 456px;
 
-
     align-items: center;
     justify-content: space-between;
 
@@ -183,46 +182,40 @@ h6 {
     transition: 0.4s;
 }
 
-
-.skills{
+.skills {
     display: flex;
     flex-direction: row;
     width: 97%;
-    
 }
-.skills-div{
+.skills-div {
     display: flex;
     flex-direction: row;
     gap: 35px;
     width: 100%;
-    
 }
-.design-skills{
+.design-skills {
     gap: 22px;
     flex-basis: 50%;
-   
 }
 
-.development-skills{
+.development-skills {
     flex-basis: 50%;
     gap: 22px;
-    
+
     border-radius: 10px;
 }
-.card-heading{
+.card-heading {
     padding-left: 25px;
-    
-    
 }
-.card-heading h2{
-     display: block;
+.card-heading h2 {
+    display: block;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-        margin: 0;
+    margin: 0;
     margin-bottom: 20px;
-    color:#1e2125 ;
+    color: #1e2125;
 }
 
 .skills .card:hover {
@@ -235,25 +228,22 @@ h6 {
     list-style: none;
     margin: 43px 10px;
     position: relative;
-    
+
     text-transform: uppercase;
-    
 }
 .skills-container li::before {
     content: "";
-    background-color: #DCE1E4;
+    background-color: #dce1e4;
     height: 10px;
     width: 100%;
     position: absolute;
     top: calc(100% + 5px);
     border-radius: 5px;
     left: 0;
-    
-
 }
 .skills-container li::after {
     content: "";
-    background-color: #FF3875;
+    background-color: #ff3875;
     height: 10px;
     left: 0;
     width: 0;
@@ -261,12 +251,11 @@ h6 {
     top: calc(100% + 5px);
     border-radius: 5px;
     opacity: 0.8;
-    
-    background: linear-gradient(
-    145deg, #fff 0%, var(--color-primary) 100%);
+
+    background: linear-gradient(145deg, #fff 0%, var(--color-primary) 100%);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
- 
+
     visibility: visible;
     animation-duration: 1s;
     animation-delay: 0.6s;
@@ -305,7 +294,6 @@ h6 {
         width: 60%;
     }
 }
-
 
 /* design skills */
 .skills-container li.photoshot::after {
