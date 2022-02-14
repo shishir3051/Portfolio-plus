@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+:root {
+    --header-bg: #ffffff;
+    --full-body-bg: #ecf0f3;
+    --default-font-size: 16px;
+    --border-color: rgb(187, 187, 187);
+    --light-color: #ecf0f3;
+    --icon-bg: #dc0f22;
+    --heading-color: #3c3e41;
+    --button-color: #ff014f;
+    --color-primary: #ff014f;
+}
+
+div#work {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    flex-direction: column;
+    width: 80%;
+}
+.whole-container {
+    display: flex;
+    gap: 30px;
+    margin: 0px 35px;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+    gap: 5px;
+}
