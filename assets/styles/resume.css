@@ -41,13 +41,15 @@ h5 {
     font-size: 1.5rem;
     color: #3c3e41;
     height: 50px;
+    transition: 0.9s;
 }
-h6{
+h6 {
     font-weight: bold;
     font-size: 1.5rem;
     color: #3c3e41;
-        height: 70px;
+    height: 70px;
     width: 58%;
+    transition: 0.4s;
 }
 
 .job {
@@ -94,11 +96,11 @@ h6{
     height: 36px;
     font-size: 14px;
 
-     padding: 0 15px;
+    padding: 0 15px;
     line-height: 36px;
 }
- .personal.point span{
-   border-radius: 6px;
+.personal.point span {
+    border-radius: 6px;
 }
 .title {
     margin-bottom: 15px;
@@ -108,7 +110,7 @@ h6{
     display: block;
     font-size: 14px;
 }
-.job span{
+.job span {
     font-size: 15px;
 }
 
@@ -120,7 +122,7 @@ h6{
     font-weight: 500;
     transition: 0.4s;
 }
-.educational span{
+.educational span {
     font-size: 15px;
 }
 
@@ -142,8 +144,9 @@ h6{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #1a1d23;
-    height:150px;
-    
+    height: 150px;
+    transition: 0.9s;
+
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -154,24 +157,26 @@ h6{
     transition: 0.4s;
 }
 
-
 .personal-portfolio-card:hover {
     background-color: var(--icon-bg);
 }
 .personal-portfolio-card:hover p {
+    transition: 0.4s;
     color: var(--light-color);
 }
 .personal-portfolio-card:hover h5 {
     color: var(--light-color);
+    transition: 0.4s;
 }
 .personal-portfolio-card:hover span {
     color: var(--light-color);
+    transition: 0.4s;
 }
 .personal-portfolio-card:hover h6 {
     color: var(--light-color);
+    transition: 0.4s;
 }
 .personal-portfolio-card:hover .personal {
- border-color: #d0d6e0;
+    border-color: #d0d6e0;
+    transition: 0.4s;
 }
-
-
