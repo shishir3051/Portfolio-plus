@@ -26,7 +26,196 @@ div#contact {
 }
 .main-container {
     display: flex;
-    flex-direction: row;
-    width: 48%;
-    gap: 5px;
+
+    width: 96%;
+    gap: 30px;
 }
+
+.contact-me-contact {
+    flex-direction: row;
+    display: flex;
+    margin-top: 45px;
+    margin-left: 40px;
+    gap: 30px;
+}
+.nevine-acotanza {
+    background-color: #e6ebef;
+    border-radius: 10px;
+
+    flex-basis: 40%;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.acontanza {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #e6ebef;
+    border-radius: 10px;
+    padding: 30px;
+    flex-basis: 40%;
+    margin-bottom: 30px;
+    
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    transition: 0.4s all;
+    border-radius: 10px;
+}
+.acontanza:hover img {
+    transform: scale(1.1);
+}
+
+.title h2 {
+    height: 40px;
+}
+.find-with-me {
+    display: flex;
+    flex-direction: col;
+    gap: 14px;
+    height: 50px;
+}
+.find-me {
+    display: flex;
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+.work-div {
+    height: 100%;
+}
+
+.info-div {
+    height: 65px;
+}
+
+.info-phone {
+    margin-bottom: 10px;
+}
+
+.info-email a {
+    text-decoration: none;
+}
+.info-email :hover {
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    background-color: #e6ebef;
+    border-radius: 10px;
+    padding: 30px;
+    flex-basis: 60%;
+    margin-bottom: 30px;
+    height: 95%;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #e6ebef;
+    border-radius: 10px;
+    padding: 30px;
+    flex-basis: 60%;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.shishir {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.shishir > div {
+    height: 60px;
+}
+
+.name-phone {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 9%;
+    margin-bottom: 10px;
+}
+.name-phone .name {
+    flex-basis: 50%;
+}
+.name input {
+    height: 50px;
+    width: 100%;
+    flex-basis: 50%;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.name-phone .phone-number {
+    flex-basis: 50%;
+}
+.phone-number input {
+    height: 50px;
+    width: 100%;
+    flex-basis: 50%;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.shishir-email {
+    margin-top: 30px;
+}
+.shishir-email input {
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.shishir-subject input {
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.form-button button {
+    width: 174px;
+    height: 55px;
+    font-size: 20px;
+    transition: 0.4s all;
+    border-radius: 12px;
+    font-weight: bold;
+    border: none;
+    background-color: var(--header-bg);
+}
+.form-button button:hover {
+    background-color: var(--icon-bg);
+    color: var(--header-bg);
+    transform: translateY(-5px);
+}
+

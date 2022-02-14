@@ -132,7 +132,7 @@ h6 {
 
     align-items: center;
     justify-content: space-between;
-
+  cursor: pointer;
     transition: 0.5s;
     padding: 20px;
     margin-bottom: 20px;

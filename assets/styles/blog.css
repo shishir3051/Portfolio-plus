@@ -26,7 +26,117 @@ div#blog {
 }
 .main-container {
     display: flex;
-    flex-direction: row;
-    width: 48%;
+    flex-direction: column;
+     width: 96%;
     gap: 5px;
 }
+.card-div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.card1 {
+    background-color: #e6ebef;
+    flex-basis: 33.33%;
+    width: 337px;
+    height: 380px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(43, 39, 39, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+
+    padding-top: 10px;
+}
+.dev a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.title .dev {
+    flex-basis: 60%;
+
+}
+
+.inner-card a {
+    text-decoration: none;
+}
+.inner-card .link {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    transition: 0.3s all;
+}
+.card1:hover .link {
+  color: var(--color-primary);
+}
+.title .love {
+    flex-basis: 40%;
+    font-weight: 500;
+    font-family: var(--color-primary);
+    font-size: 15px;
+    
+}
+
+.inner-card {
+    /* height: 100%; */
+    gap: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-card img {
+    transition: 0.5s all;
+    width: 247px;
+    height: 185px;
+    border-radius: 10px;
+}
+.image-container{
+    overflow: hidden;
+    border-radius: 10px;
+    height: 186px;
+    width: 247px;
+}
+.card1:hover img{
+    transform: scale(1.1);
+}
+.card-div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.see-more {
+    text-align: center !important;
+    width: 100%;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+
+.see-more button {
+    padding: 26px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+.see-more button:hover {
+    background-color: var(--icon-bg);
+    color: var(--header-bg);
+    transform: translateY(-5px);
+}
+
