@@ -203,6 +203,7 @@ textarea {
     justify-content: center;
     text-align: center;
     gap: 20px;
+
     
 }
 .form-button button {
@@ -213,8 +214,11 @@ textarea {
     border-radius: 12px;
     font-weight: bold;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:#ECF0F3;
+
     
-    background-color: var(--header-bg);
+    /* background-color: var(--header-bg); */
 }
 .form-button button:hover {
     background-color: var(--icon-bg);
