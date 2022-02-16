@@ -44,7 +44,7 @@ header {
     position: absolute;
     width: calc(100% - 70px);
     background-color: var(--header-bg);
-    min-height: 240px;
+    min-height: 270px;
     bottom: 0px;
     border-radius: 13px;
     display: flex;
@@ -313,12 +313,6 @@ footer a:hover span::after {
 
 /* responsive design starts hear */
 
-@media screen and (min-width: 1230px) {
-    .sidebar {
-        width: 198px;
-    }
-}
-
 @media screen and (max-width: 1199px) {
     /* .floating-header {
         
@@ -340,7 +334,7 @@ footer a:hover span::after {
         width: auto;
         padding: 5px 5px 2px;
         border-radius: 15px;
-        margin: -65px 0px 1px 0px;
+        margin: -95px 0px 1px 0px;
         height: fit-content;
         align-self: center;
     }
@@ -404,24 +398,8 @@ footer a:hover span::after {
         flex-basis: 70%;
     }
 }
-/* @media screen and (min-width:499px) {
-    .sidebar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-content: space-evenly;
-    }
 
-
-} */
-
-
-
-
-
-
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     header {
         min-height: 850px;
     }
@@ -434,19 +412,19 @@ footer a:hover span::after {
     .main-heading::after {
         content: "";
         background-color: rgb(230, 230, 230);
-        width:90%;
+        width: 90%;
         position: absolute;
         left: 50%;
         transform: translate(-50%);
         height: 1px;
-        top: 49%;
+        top: 46%;
     }
     .whole-container {
         flex-direction: column;
         gap: 0 !important;
     }
     aside {
-        width: 100%;
+        width: 101%;
     }
     /* .col-6{
         
@@ -460,7 +438,8 @@ footer a:hover span::after {
     }
     .sidebar button {
         height: 50px;
-        width: 80px;
+        width: 60px;
+        font-size: 12px;
     }
     div#about-me {
         width: 100% !important;
