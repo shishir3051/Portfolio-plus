@@ -313,6 +313,12 @@ footer a:hover span::after {
 
 /* responsive design starts hear */
 
+@media screen and (min-width: 1230px) {
+    .sidebar {
+        width: 198px;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     /* .floating-header {
         
@@ -398,7 +404,24 @@ footer a:hover span::after {
         flex-basis: 70%;
     }
 }
-@media (max-width: 991px) {
+/* @media screen and (min-width:499px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+
+} */
+
+
+
+
+
+
+
+@media (max-width: 767px) {
     header {
         min-height: 850px;
     }
@@ -406,17 +429,17 @@ footer a:hover span::after {
         flex-direction: column;
     }
     .me-info {
-        flex-direction: row;
+        flex-direction: col;
     }
     .main-heading::after {
         content: "";
         background-color: rgb(230, 230, 230);
-        width: 90%;
+        width:90%;
         position: absolute;
         left: 50%;
         transform: translate(-50%);
         height: 1px;
-        top: 60%;
+        top: 49%;
     }
     .whole-container {
         flex-direction: column;
@@ -425,11 +448,15 @@ footer a:hover span::after {
     aside {
         width: 100%;
     }
+    /* .col-6{
+        
+    } */
     .sidebar {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 8px;
+        /* gap: 8px; */
+        justify-content: space-evenly;
     }
     .sidebar button {
         height: 50px;
