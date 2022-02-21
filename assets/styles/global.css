@@ -17,6 +17,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /* html,
 {
@@ -403,6 +404,9 @@ footer a:hover span::after {
     header {
         min-height: 850px;
     }
+    .main-heading > h2 {
+    font-size: 24px;
+}
     .floating-header {
         flex-direction: column;
     }
@@ -449,7 +453,7 @@ footer a:hover span::after {
         position: unset;
     }
     footer p {
-        padding: 20px;
+        padding-left: 20px;
     }
 }
 /* responsive design ends hear */

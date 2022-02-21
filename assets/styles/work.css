@@ -164,6 +164,7 @@ div#work {
         align-self: center;
         margin-left: 25px;
         margin-top: 30px;
+        /* width: 100%; */
     }
 
     .card-div2 {
@@ -171,6 +172,7 @@ div#work {
         flex-direction: column;
         align-self: center;
         justify-content: space-evenly;
+        /* width: 100%; */
         margin-left: 25px;
     }
 
