@@ -226,3 +226,37 @@ textarea {
     transform: translateY(-5px);
 }
 
+/* responsive design starts here */
+
+
+/* @media screen and (max-width: 768px) {
+    div#contact {
+        width: 100%;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+       
+    }
+.contact-me-contact {
+    display: flex;
+    flex-direction: column;
+    
+}
+.form{
+    width: 100%;
+}
+   
+} */
+
+
+
+
+
+
+
+
+
+
+/* responsive design ends here */

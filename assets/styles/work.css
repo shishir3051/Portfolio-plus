@@ -144,9 +144,87 @@ div#work {
 }
 
 /* responsive design starts here */
-/* @media screen and (max-width:1199px) {
-    
-} */
+@media screen and (max-width: 1360px) {
+    div#work {
+        width: 76.7%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-div2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .inner-card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    div#work {
+        width: 83%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .card-div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-div2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .image-container {
+        width: 100%;
+    }
+    .inner-card img {
+        width: 100%;
+    } */
+}
+
+@media screen and (max-width: 1000px) {
+    div#work {
+        width: 82%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 100%; */
+    }
+    .card-div1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     div#work {
         width: 100%;
@@ -164,7 +242,7 @@ div#work {
         align-self: center;
         margin-left: 25px;
         margin-top: 30px;
-        /* width: 100%; */
+        width: 100%;
     }
 
     .card-div2 {
@@ -172,7 +250,7 @@ div#work {
         flex-direction: column;
         align-self: center;
         justify-content: space-evenly;
-        /* width: 100%; */
+        width: 100%;
         margin-left: 25px;
     }
 
@@ -183,11 +261,11 @@ div#work {
         width: 100%;
     }
     .card1 {
-        max-width: 63%;
+        max-width: 89%;
         display: flex;
         justify-content: center;
-        margin-left: 60px;
-        align-items: center;
+        margin: 10px;
+        align-self: center;
     }
 }
 

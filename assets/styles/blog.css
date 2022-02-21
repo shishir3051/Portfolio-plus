@@ -27,7 +27,7 @@ div#blog {
 .main-container {
     display: flex;
     flex-direction: column;
-     width: 96%;
+    width: 96%;
     gap: 5px;
 }
 .card-div1 {
@@ -65,7 +65,6 @@ div#blog {
 
 .title .dev {
     flex-basis: 60%;
-
 }
 
 .inner-card a {
@@ -78,14 +77,13 @@ div#blog {
     transition: 0.3s all;
 }
 .card1:hover .link {
-  color: var(--color-primary);
+    color: var(--color-primary);
 }
 .title .love {
     flex-basis: 40%;
     font-weight: 500;
     font-family: var(--color-primary);
     font-size: 15px;
-    
 }
 
 .inner-card {
@@ -94,7 +92,6 @@ div#blog {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-
 }
 .inner-card img {
     transition: 0.5s all;
@@ -102,13 +99,13 @@ div#blog {
     height: 185px;
     border-radius: 10px;
 }
-.image-container{
+.image-container {
     overflow: hidden;
     border-radius: 10px;
     height: 186px;
     width: 247px;
 }
-.card1:hover img{
+.card1:hover img {
     transform: scale(1.1);
 }
 .card-div2 {
@@ -140,3 +137,136 @@ div#blog {
     transform: translateY(-5px);
 }
 
+/* responsive design starts here */
+@media screen and (max-width: 1360px) {
+    div#blog {
+        width: 79%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-div2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .inner-card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    div#blog {
+        width: 84%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 100%; */
+    }
+    .card-div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-div2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .inner-card img {
+        width: 100%;
+    }
+    .title .dev {
+        flex-basis: 57%;
+    }
+    .title .love {
+        flex-basis: 41%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    div#blog {
+        width: 82%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 100%; */
+    }
+    .card-div1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div#blog {
+        width: 100%;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+
+    .card-div1 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-left: 0px;
+
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .card-div2 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+    .inner-card img {
+        width: 100%;
+    }
+    .card1 {
+        max-width: 89%;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        align-self: center;
+    }
+}
+
+/* responsive design ends here */
