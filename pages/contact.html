@@ -25,7 +25,10 @@
             <div class="floating-header">
                 <div class="col-6">
                     <div class="profile-img">
-                        <img src="../assets/images/PicsArt_07-21-04.28.01.jpg" alt="profile" />
+                        <img
+                            src="../assets/images/PicsArt_07-21-04.28.01.jpg"
+                            alt="profile"
+                        />
                     </div>
                     <div class="heading-container">
                         <div class="main-heading">
@@ -128,18 +131,18 @@
             </aside>
             <div id="contact" class="stickyPin-top">
                 <div class="main-container">
-                    <div class="contact-me-contact" >
+                    <div class="contact-me-contact">
                         <div class="nevine-acotanza">
                             <div class="acontanza">
-                                <div class="image-container" >
+                                <div class="image-container">
                                     <img
                                         src="../assets/images/contact1.png"
                                         alt=""
                                     />
                                 </div>
 
-                                <div class="title"id="pin" >
-                                    <h2>Nevine Acotanza</h2>
+                                <div class="title" id="pin">
+                                    <h2>HM.Gaziur Rahman Shishir</h2>
                                     <span>Chief Operating Officer</span>
                                 </div>
                                 <div class="work-div">
@@ -199,75 +202,87 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form">
-                            <div class="form-div">
-                                <div class="name-phone">
-                                    <div class="name">
-                                        <label for="name">YOUR NAME</label>
-                                        <br />
-                                        <input
-                                            class="form-control"
-                                            type="text"
-                                            name="name"
-                                            id="name"
-                                            required
-                                        />
-                                    </div>
-                                    <div class="phone-number">
-                                        <label for="number">PHONE NUMBER</label
-                                        ><br />
-                                        <input
-                                            class="form-control"
-                                            type="tel"
-                                            name="phone number"
-                                            id="number"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <div class="shishir">
-                                    <div class="shishir-email">
-                                        <label for="email">EMAIL</label><br />
-                                        <input
-                                            class="form-control"
-                                            type="email"
-                                            name="email"
-                                            id="email"
-                                        />
-                                    </div>
-                                    <div class="shishir-subject">
-                                        <label for="subject">SUBJECT</label
-                                        ><br />
-                                        <input
-                                            class="form-control"
-                                            type="text"
-                                            name="subject"
-                                            id="subject"
-                                        />
-                                    </div>
-                                    <div class="shishir-massage">
-                                        <label for="subject"
-                                            >YOUR MESSAGE</label
-                                        >
-                                        <textarea
-                                         class="form-control"
-                                            name="subject"
-                                            id="subject"
-                                            cols="55"
-                                            rows="10"
-                                        ></textarea>
-                                    </div>
-                                </div>
+
+                        <form action="mailto:gaziur35-3051@diu.edu.bd" >
+                            <datalist id="name">
+                                <option>Gaziur</option>
+                                <option>rahman</option>
+                                <option>Shishir</option>
+                            </datalist>
+                            <div >
+                                <label for="full name"> NAME </label> <br />
+                                <input class="form-control"
+                                    type="text"
+                                    name="full name"
+                                    id="full name"
+                                    placeholder="Only latter"
+                                    required=""
+                                    pattern="[a-ZA-Z0-9]+"
+                                    list="name"
+                                />
                             </div>
-                            <div class="form-button">
-                                <button type="submit" value="Submit">
-                                    Send Message
-                                </button>
-                                <button type="reset" value="Reset">
-                                    Reset
-                                </button>
+
+                            <div class="phn ">
+                                <label for="phone number">PHONE NUMBER</label>
+                                <br />
+                                <input class="form-control"
+                                    type="text"
+                                    name="phone number"
+                                    id="phone number"
+                                />
                             </div>
-                        </div>
+                            <div>
+                                <label for="email">EMAIL </label> <br />
+                                <input class="form-control"
+                                    type="email"
+                                    name="email"
+                                    placeholder="@ gmail.com"
+                                    id="email "
+                                    required=""
+                                />
+                            </div>
+
+
+                            <div alt="fillip this option">
+                                <label for="Nationality">NATIONALITY </label>
+                                <br />
+                                <input class="form-control"
+                                    type="text"
+                                    name="nationality"
+                                    id="nationality"
+                                />
+                            </div>
+
+                            <div>
+                                <label for="image">
+                                    <span>CHOOSE YOUR PICTURE </span> </label
+                                ><br />
+
+                                <input type="file" name="image " id="image" />
+                            </div>
+                            <div class="subject">
+                                <label for="subject">SUBJECT</label><br />
+                                <input class="form-control"
+                                    type="text"
+                                    name="subject"
+                                    id="subject"
+                                />
+                            </div>
+                            <div>
+                                <label for="feedback"> YOUR MESSAGE </label>
+                                <br />
+                                <textarea class="form-control"
+                                    name=""
+                                    id=""
+                                    cols="50"
+                                    rows="10"
+                                ></textarea>
+                            </div>
+                            <div class="form-bottom">
+                                <input class="form-control" type="submit" value="Send Message" />
+                                <input class="form-control" type="reset" value="clear" />
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -291,6 +306,5 @@
             src="../assets/scripts/main.js"
         ></script>
         <script src="../assets/scripts/gototop.js"></script>
-
     </body>
 </html>
