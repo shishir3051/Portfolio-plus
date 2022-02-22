@@ -3,6 +3,12 @@ div#about-me {
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    width: 80%;
+}
+.whole-container {
+    display: flex;
+    gap: 30px;
+    margin: 0px 35px;
 }
 .main-container {
     border-radius: 10px;
@@ -117,11 +123,6 @@ div#about-me {
     padding-top: 27px;
     padding-bottom: 22px;
 }
-.whole-container {
-    display: flex;
-    gap: 30px;
-    margin: 0px 35px;
-}
 
 .trusted-Clients {
     flex-basis: 25% !important;
@@ -165,99 +166,55 @@ hr {
 }
 
 /* responsive design starts here */
-/* @media screen and (max-width: 1230px) {
-    div#about-me {
+@media (max-width: 1360px) {
     
-    min-width: 78%;
-}
-    
-} */
 
-/* @media screen and (max-width: 1330px){
-.client-card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.div1-card{
-      width: 199px;
-}
-
-} */
-@media screen and (max-width: 1199px) {
-    /* /* .main-image-div {
-        width: 320px;
-        height:430px;
-    }
-    .main-image-div img {
-        width: 320px;
-        height:430px;
-    }
-    .main-body {
-        min-width: 58%;
-      
-    }
-    .main-body button{
+.main-body button {
     margin-bottom: 10px;
-    
-} */
-    /* .client-card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
-.div1-card{
-      width: 196px;
-} */
-
-    /* .div1-card img {
-    width: 200px;
-    height: 175px;
-    padding: 30px;
-    text-align: center;
-} */
+    
     div#about-me {
-        width: 82%;
-    }
-
-    .halt {
-        position: relative;
-    }
-    .main-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .main-image-div {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-    }
-
-    .main-body {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .main-body button {
-        margin-bottom: 10px;
-    }
-    .card {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        width: 83%;
     }
     .client-card {
+        flex-basis: 50% !important;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
     .div1-card {
-        display: flex;
-        flex-direction: column;
-        width: 52%;
+        max-width: 23.5%;
     }
     .div1-card img {
+        width: 200px;
+        height: 175px;
+        align-self: center;
+    }
+}
+@media (max-width: 1199px) {
+    div#about-me {
+        width: 83%;
+    }
+    .client-card {
+        flex-basis: 50% !important;
+        display: flex;
+        flex-direction: row;
+    }
+    .div1-card {
+        max-width: 23.5%;
+    }
+    .div1-card img {
+        width: 183px;
+        height: 175px;
+        align-self: center;
+    }
+}
+@media (max-width:1000px) {
+    .div1-card {
+        max-width: 23.5%;
+    }
+    .div1-card img {
+        width: 172px;
+        height: 175px;
         align-self: center;
     }
 }

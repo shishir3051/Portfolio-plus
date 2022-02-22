@@ -334,6 +334,93 @@ h6 {
 }
 
 /* responsive design start here */
+@media (max-width: 1360px) {
+    
+
+
+       div#resume{
+        width: 83%;
+}
+.main-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .personal-portfolio-card {
+        width: 100%;
+    }
+
+    .personal {
+        /* gap: 10px; */
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .title h6{
+        height: 100%;
+        width: 100%;
+    }
+    .title h5{
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 1199px) {
+    div#resume{
+        width: 83%;
+}
+.main-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .personal-portfolio-card {
+        width: 100%;
+    }
+
+    .personal {
+        /* gap: 10px; */
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .title h6{
+        height: 100%;
+        width: 100%;
+    }
+    .title h5{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width:1000px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .personal-portfolio-card {
+        width: 100%;
+    }
+
+    .personal {
+        /* gap: 10px; */
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .skills {
+    
+    width: 96%;
+}
+}
+
 
 @media screen and (max-width: 768px) {
     div#resume {
